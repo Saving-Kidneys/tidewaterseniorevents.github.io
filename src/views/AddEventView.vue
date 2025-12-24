@@ -146,6 +146,18 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useHead } from '@unhead/vue'
+
+useHead({
+  title: 'Add Your Event - Tidewater Senior Events',
+  meta: [
+    { name: 'description', content: 'Submit your senior-friendly event to be featured on the Tidewater Senior Events calendar. Share activities with the Hampton Roads community.' },
+    { name: 'keywords', content: 'submit event, add event, senior events, Tidewater, Hampton Roads, community events' },
+    { property: 'og:title', content: 'Add Your Event - Tidewater Senior Events' },
+    { property: 'og:description', content: 'Submit your senior-friendly event to be featured on our calendar.' },
+    { property: 'og:type', content: 'website' },
+  ],
+})
 
 const formData = ref({
   name: '',

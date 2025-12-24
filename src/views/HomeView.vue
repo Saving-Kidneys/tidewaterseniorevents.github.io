@@ -1,3 +1,18 @@
+<script setup lang="ts">
+import { useHead } from '@unhead/vue'
+
+useHead({
+  title: 'Tidewater Senior Events - Senior Activities in Hampton Roads',
+  meta: [
+    { name: 'description', content: 'Discover senior-friendly events, activities, and social gatherings in the Tidewater and Hampton Roads area. Connect with your community!' },
+    { name: 'keywords', content: 'senior events, Tidewater, Hampton Roads, Virginia Beach, Norfolk, senior activities, elderly events' },
+    { property: 'og:title', content: 'Tidewater Senior Events - Senior Activities in Hampton Roads' },
+    { property: 'og:description', content: 'Discover senior-friendly events, activities, and social gatherings in the Tidewater and Hampton Roads area.' },
+    { property: 'og:type', content: 'website' },
+  ],
+})
+</script>
+
 <template>
   <div class="home">
     <!-- Hero Section -->

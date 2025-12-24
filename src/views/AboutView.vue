@@ -1,3 +1,18 @@
+<script setup lang="ts">
+import { useHead } from '@unhead/vue'
+
+useHead({
+  title: 'About Us - Tidewater Senior Events',
+  meta: [
+    { name: 'description', content: 'Learn about Tidewater Senior Events and our mission to connect seniors in the Hampton Roads area with engaging activities and events.' },
+    { name: 'keywords', content: 'about, senior community, Tidewater, mission, senior events organization' },
+    { property: 'og:title', content: 'About Us - Tidewater Senior Events' },
+    { property: 'og:description', content: 'Learn about our mission to connect seniors in the Hampton Roads area with engaging activities and events.' },
+    { property: 'og:type', content: 'website' },
+  ],
+})
+</script>
+
 <template>
   <div class="about">
     <!-- Hero Section -->

@@ -1,3 +1,18 @@
+<script setup lang="ts">
+import { useHead } from '@unhead/vue'
+
+useHead({
+  title: 'Resource of the Month - Tidewater Senior Events',
+  meta: [
+    { name: 'description', content: 'Discover valuable resources for seniors in the Tidewater area including medical transport, healthcare, and community services.' },
+    { name: 'keywords', content: 'senior resources, medical transport, healthcare, Hampton Roads, Virginia Beach, senior services' },
+    { property: 'og:title', content: 'Resource of the Month - Tidewater Senior Events' },
+    { property: 'og:description', content: 'Discover valuable resources for seniors in the Tidewater area including medical transport and healthcare services.' },
+    { property: 'og:type', content: 'website' },
+  ],
+})
+</script>
+
 <template>
   <div class="resource">
     <!-- Hero Section -->
